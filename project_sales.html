@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Репина Олеся</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/icon" href="assets/images/favicon.ico"/>
+    <!-- Font Awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Slick slider -->
+    <link href="assets/css/slick.css" rel="stylesheet">
+    <!-- Gallery Lightbox -->
+    <link href="assets/css/magnific-popup.css" rel="stylesheet">
+    <!-- Theme color -->
+    <link id="switcher" href="assets/css/theme-color/default-theme.css" rel="stylesheet">
+
+    <!-- Main Style -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Fonts -->
+
+    <!-- Open Sans for body font -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800" rel="stylesheet">
+    <!-- Poppins for Title -->
+  	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+ 
+ 
+	
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  	
+  	<!-- Start Header -->
+	<header id="mu-header" class="" role="banner">
+		<div class="container">
+			<nav class="navbar navbar-default mu-navbar">
+		  <div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+
+		      <!-- Text Logo -->
+		      <a class="navbar-brand" href="files\resume.pdf" target="_blank">Скачать&nbspрезюме</a>
+
+		      <!-- Image Logo -->
+		      <!-- <a class="navbar-brand" href="#"><img src="assets/images/logo.png"></a> -->
+
+
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      	<ul class="nav navbar-nav mu-menu navbar-right">
+			        <li><a href="main.html#main">Главная</a></li>
+			        <li><a href="main.html#service">Компетенции</a></li>
+		            <li><a href="main.html#portfolio">Проекты</a></li>
+		            <li><a href="main.html#faq">Вопрос-ответ</a></li>
+					<li><a href="main.html#contact">Контакты</a></li>
+		      	</ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+		</div>
+	</header>
+	<!-- End Header -->
+
+	<!-- Start main content -->
+		
+	<main role="main">
+
+		<!-- Start Testimonials -->
+		<section class="mu-testimonials" style="background-image: url('assets/images/portfolio/img-3.png');">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="mu-testimonials-area">
+							<div class="mu-testimonial-header">
+								<a href="main.html#portfolio" title="Вернуться к списку проектов">	<span class="mu-testimonial-icon-box">
+								<i class="fa fa-long-arrow-left"></i>
+								</span></a>
+								<h2 class="mu-heading-title">Исследование влияния уценки на продажи в сети розничных магазинов и составление прогноза на следующий год</h2>
+								<span class="mu-header-dot"></span>
+							</div>
+
+							<div class="mu-testimonials-block">
+								<ul class="mu-testimonial-slide">
+
+									<li>
+										<h5 class="mu-ct-name">Источник</h5>
+											<div class="mu-testimonial-text">	
+												Реализация проекта производилась в качестве летней практики в конце 3 курса (лето 2022 года).
+												Выбор темы и технологий был свободным.
+											</div>
+											<div class="mu-testimonial-text">
+												Несмотря на активное развитие интернет-торговли опрос, проведённый среди 400 жителей Москвы и Санкт-Петербурга в 2022 году
+												компанией Strategy Partners, показал, что 93% респондентов посещают физические магазины.
+												Поэтому для работы был выбран датасет, содержащий исторические данные о продажах для 45 магазинов, 
+												расположенных в разных регионах. 										
+										</div>
+										
+									</li>
+
+									<li>
+										<h5 class="mu-ct-name">Цель и задачи</h5>
+											<div class="mu-testimonial-text">
+												Цель проекта состояла в анализе розничной торговли сети из 45 магазинов на Python.
+											</div>
+											<div class="mu-testimonial-text">
+											Для осуществления цели были поставлены задачи:<br>
+											— предсказать, какие отделы при проведении уценки будут затронуты и в какой степени;<br>
+											— спрогнозировать продажи на следующий год.
+											</div>									
+									</li>
+
+									<li>
+										<h5 class="mu-ct-name">Методы</h5>
+											<p>	
+										Авторегрессионная модель интегрированной скользящей средней<br>
+										Вычисление средних, минимальных и максимальных значений
+											</p>
+									</li>
+
+									<li>
+										<h5 class="mu-ct-name">Инструменты</h5>
+											<p>	
+											Язык программирования Python и его библиотеки:<br>
+											NumPy<br>Pandas<br>Matplotlib<br>Seaborn<br>
+											Pmdarima<br>Модуль statistics<br>Scikit-learn<br>Statsmodels
+											</p>
+									</li>
+
+									<li>
+										<h5 class="mu-ct-name">Результат</h5>
+										<div class="mu-testimonial-text">	
+											Для изучения влияния уценок на отделы использовались усреднённые данные по всем магазинам. 
+											Так как данные анонимизированны, считалось, что метки от 1 до 5 означают условную категорию уценки, 
+											а значение — условный код. Тогда для определения средних продаж под влиянием уценки выбирались отделы,
+											 у которых значения уценки определённой категории больше 0.</div>			
+										<div class="mu-testimonial-text">	
+											В результате был сделан вывод, что  у отделов с более высокими продажами отмечается больший рост, 
+											чем у отделов с низкими. При этом отделы 77, 99, 47 и 39 хоть и имеют наибольший прирост в процентах, 
+											их продажи не влияют на общий рост продаж. Однако при проведении любой категории уценок отсутствуют 
+											отрицательные продажи. Из проанализированных категорий наибольшее влияние оказывают уценки четвёртой 
+											категории, а наименьшее — пятой. Пик месячных продаж приходится на декабрь, после чего, в январе, 
+											наблюдается сильный спад, каждый сезон после резкого роста происходит резкий спад. Также в следующем 
+											году ожидаются большие продажи в марте, июне и августе, что можно увидеть в описании проекта.
+										</div>									
+									</li>
+
+									<li>
+										<a class="a-project" target="_blank" href="https://www.kaggle.com/code/olesiarepina191342/markdown-analysis-in-sales-45-stores"><h5 class="mu-ct-name"><u><b>Перейти на страницу с листингом кода</b> (ссылка)</u></h5></a>								
+									</li>
+
+									<li>
+										<h5 class="mu-ct-name">Описание</h5>
+										<!--Описание первого этапа-->
+										<div class="mu-ct-block">
+											<div class="mu-testimonial-text">										
+												Для упрощения работы и сокращения кода было составлено построение графиков и таблиц для сравнения продаж
+												 и оценки влияния в одну функцию (reserch_markdown(категория_уценки)), которая состоит из следующего набора функций:<br>
+												&#8226; filter_dept_sales (DataFrame) — функция для определения среднего значения для каждого из отделов;<br>
+												&#8226; paint_graph (Значения, Список отделов)— функция для построения отсортированного по убыванию графика;<br>
+												&#8226; show_table_depts (Список отделов, Значения при отсутствии уценок, 
+												Значения при наличии уценок, Разность, Оценка роста/падения продаж в процентах, 
+												Номер категории уценки) — функция вывода таблицы всех параметров сравнения;<br>
+												&#8226; paint_double_graph (Список отделов, Значения без уценки, Значения с уценкой) — 
+												построение двойного столбчатого графика для сравнения продаж;<br>
+												&#8226; different (С уценкой, Без уценки) — функция подсчёта разности между средними продажами;<br>
+												&#8226; different_part (С уценкой, Без уценки) — функция оценки роста/падения продаж в процентах.<br>
+												Код перечисленных функций можно изучить, перейдя по ссылке выше на страницу с листингом кода.
+										</div></div>
+										<div class="mu-ct-block">
+											<div class="mu-testimonial-text">										
+												В результате работы вышеописанной функции сначала выводится вертикальная столбчатая диаграмма,
+												которая расположена ниже. Этот график отражает среднее изменение продаж в отделе во всех магазинах
+												при наличии уценки определённой категории (в данном случае, первой).											
+										</div></div>
+
+										<div class="mu-ct-block">
+											<div class="mu-testimonial-img-center">	
+												<img class="mu-testimonial-img" src="project_sales/image-1.png" width="100%">
+											</div></div>
+
+											<div class="mu-ct-block">
+												<div class="mu-testimonial-text">										
+													Затем печатается таблица, где изменения отсортироаны по убыванию процента прироста продаж.
+													Фрагмент таблицы представлен ниже.										
+											</div></div>
+
+										<div class="mu-ct-table" style="margin-bottom: 20px;">
+											<div>
+											<table>
+											<tr><th> </th><th>Отдел</th><th>Нет уценки</th><th>Есть уценка первой категории</th>
+												<th>С уценкой - Нет уценки</th><th>Изменение в процентах</th></tr> 
+											<tr><td>0</td><td>77</td><td>-5.933</td><td>347.829</td>
+												<td>353.762</td><td>5963.111</td></tr> 
+											<tr><td>1</td><td>99</td><td>144.171</td><td>511.321</td>
+												<td>367.150</td><td>254.663</td></tr>
+											<tr><td>2</td><td>47</td><td>-16.810</td><td>9.513</td>
+												<td>26.322</td><td>156.590</td></tr> 
+											<tr><td>3</td><td>39</td><td>6.487</td><td>13.906</td>
+												<td>7.419</td><td>114.378</td></tr>
+											<tr><td>4</td><td>48</td><td>1078.384</td><td>1710.891</td>
+												<td>632.507</td><td>58.653</td></tr>
+											<tr><td>...</td><td>...</td><td>...</td><td>...</td>
+												<td>...</td><td>...</td></tr>
+											</table>
+											</div>
+										</div>
+
+										<div class="mu-ct-block">
+											<div class="mu-testimonial-text">										
+												На следующем графике (изображение ниже) в виде столбчатой диаграммы отображены средние изменения 
+												прода в отделах в денежных единицах с сортировкой по росту/убыли по убыванию.								
+										</div></div>
+
+										<div class="mu-ct-block">
+											<div class="mu-testimonial-img-center">	
+												<img class="mu-testimonial-img" src="project_sales/image-2.png" width="100%">
+											</div></div>
+
+										<div class="mu-ct-block">
+											<div class="mu-testimonial-text">										
+										Также в анализе влияния уценки на продажи рассматривается график изменения продаж в процентах при проведении уценки первой категории,
+										который позволяет посмотреть на задачу под другим углом. Диаграмма ниже показывает, что наибольшее влияние уценка оказывает на 77 отдел,
+										тогда как график выше показывет большой рост продаж в 92 отделе. Аналогичным образом анализировались уценки других категорий.								
+										</div></div>
+
+										<div class="mu-ct-block">
+											<div class="mu-testimonial-img-center">	
+												<img class="mu-testimonial-img" src="project_sales/image-3.png" width="100%">
+											</div></div>
+										
+										<div class="mu-ct-block">
+											<div class="mu-testimonial-text">										
+												Прогнозироание продаж на следующий год осуществлялось с помощью ARIMA модели. 
+												ARIMA расшифровывается как авторегрессионная модель интегрированной скользящей средней и определяется тремя 
+												параметрами порядка: (p, d, q).<br>
+												&#8226;AR (p) Авторегрессия – регрессионная модель, которая использует зависимую связь между 
+												текущим наблюдением и наблюдениями за предыдущий период.Авторегрессионный (AR (p)) 
+												компонент относится к использованию прошлых значений в уравнении регрессии для временного ряда.<br>
+												&#8226;I (d) Интеграция – использует дифференцирование наблюдений (вычитание наблюдения 
+												из наблюдения на предыдущем временном шаге), чтобы сделать временные ряды стационарными. 
+												Дифференцирование включает в себя вычитание текущих значений ряда с его предыдущими значениями 
+												d количество раз.<br>
+												&#8226;MA (q) Скользящее среднее – модель, которая использует зависимость между наблюдением 
+												и остаточной ошибкой из модели скользящего среднего, применяемой к запаздывающим наблюдениям. 
+												Компонент скользящего среднего отображает ошибку модели как комбинацию предыдущих условий ошибки. 
+												Порядок q представляет количество терминов, которые должны быть включены в модель.																	
+										</div></div>
+
+										<div class="mu-ct-block">
+											<div>
+												<div class="mu-testimonial-text-right">										
+													Функция auto_arima() из библиотеки pmdarima помогает нам определить наиболее оптимальные 
+													параметры для модели ARIMA и возвращает подходящую модель ARIMA.	
+												</div>
+												<div class="mu-testimonial-text-right">										
+													Набор данных был разделён на обучающий  и тестовый. Это разделение использовалось для 
+													сравнения прогнозных значений с фактическими. Сравнение было представлено графически на 
+													изображении справа. Средняя ошибка аппроксимации для построенной модели составляет 0,99, 
+													что говорит об отличном качестве.													
+												</div>
+												<div class="mu-testimonial-text-right">										
+													После тестирования модель была обучена на полном наборе данных, и был сделан прогноз на 
+													следующий год с построением графика, представленным ниже.
+												</div>
+												</div>											
+											<div>	
+												<img class="mu-testimonial-img" src="project_sales/image-4.png" width="380px">
+												</div></div>
+
+										<div class="mu-ct-block">
+											<div class="mu-testimonial-img-center">	
+												<img class="mu-testimonial-img" src="project_sales/image-5.png" width="100%">
+											</div></div>														
+									
+									</li>
+								</ul>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Testimonials -->
+
+	</main>
+	
+	<!-- End main content -->
+			
+			
+	<!-- Start footer -->
+	<footer id="mu-footer" role="contentinfo">
+			<div class="container">
+				<div class="mu-footer-area">
+					<p class="mu-copy-right">Репина Олеся Михайловна. 2023</p>
+				</div>
+			</div>
+
+	</footer>
+	<!-- End footer -->
+
+	
+	
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.min.js"></script>
+	<!-- Slick slider -->
+    <script type="text/javascript" src="assets/js/slick.min.js"></script>
+    <!-- Filterable Gallery js -->
+    <script type="text/javascript" src="assets/js/jquery.filterizr.min.js"></script>
+    <!-- Gallery Lightbox -->
+    <script type="text/javascript" src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- Ajax contact form  -->
+    <script type="text/javascript" src="assets/js/app.js"></script>
+	<!-- Featured Slider -->
+    <script type="text/javascript" src="assets/js/typed.min.js"></script>
+    <!-- On scroll JS  -->
+    <script src="assets/js/jquery.appear.js"></script>
+	<!-- Progress Bar -->
+    <script type="text/javascript" src="assets/js/jquery.lineProgressbar.js"></script>
+    
+	
+    <!-- Custom js -->
+	<script type="text/javascript" src="assets/js/custom.js"></script>
+
+	
+	
+    
+  </body>
+</html>
